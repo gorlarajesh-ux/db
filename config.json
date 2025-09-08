@@ -1,0 +1,34 @@
+{
+    "weights": {
+        "asa_app": 1,
+        "bing_display": 1,
+        "bing_search": 1,
+        "dv360_display": 1,
+        "dv360_display_or_olv": 1,
+        "facebook_social": 1,
+        "google_display": 1,
+        "google_display_or_olv": 1,
+        "google_search": 1,
+        "linkedin_social": 1,
+        "meta_app": 1,
+        "reddit_social": 1,
+        "snapchat_social": 1,
+        "taptica_app": 1,
+        "twitter_social": 1,
+        "commissions_affiliate": 1,
+        "placement_affiliate": 1,
+        "brand_spend": 1,
+        "redbox_app": 1,
+        "liftoff_app": 1
+    },
+    "model_params": {
+        "roi_mu":  0.2,
+        "roi_sigma":  0.9,
+        "sample_prior": 500,
+        "n_chains": 10, 
+        "n_adapt": 2000, 
+        "n_burnin": 500, 
+        "n_keep": 1000, 
+        "seed": 0
+    }
+}
